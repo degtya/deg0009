@@ -1,6 +1,20 @@
  html{
     color: #D4D4D4;
+    font-family:Arial, Helvetica, sans-serif ;
 } 
+.textcols {
+    white-space: nowrap;
+   }
+   .textcols-item {
+    white-space: normal; 
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    background: #05013e;
+   }
+   .textcols .textcols-item:first-child {
+    margin-right: 4%;
+   }
 span{
     font-style: italic;
 
